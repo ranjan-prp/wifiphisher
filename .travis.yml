@@ -15,7 +15,7 @@ install:
 
 script:
   - pylint --errors-only wifiphisher
-  - tox -e ALL
+  - tox
 
 branches:
   only:
